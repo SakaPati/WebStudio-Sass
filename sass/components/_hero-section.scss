@@ -1,0 +1,36 @@
+.hero-section {
+  max-width: 1600px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/project-company.jpg");
+  margin: 0 auto;
+}
+
+.title {
+  color: var(--studiocolor2);
+  font-weight: 900;
+  line-height: 1.36;
+  font-size: 44px;
+  margin-bottom: 30px;
+}
+
+.hero-title {
+  width: 696px;
+}
+
+.hero-button {
+  background-color: var(--webcolor);
+  color: var(--studiocolor2);
+  padding: 10px 32px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}

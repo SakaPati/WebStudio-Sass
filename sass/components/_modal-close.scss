@@ -1,0 +1,26 @@
+.close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.bth-close {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  outline: 1px solid var(--close);
+  background-color: var(--studiocolor2);
+  cursor: pointer;
+}
+
+.svg-close {
+  position: absolute;
+  top: 9px;
+  left: 10px;
+}
+
+.svg-close:hover {
+  fill: var(--webcolor);
+}
