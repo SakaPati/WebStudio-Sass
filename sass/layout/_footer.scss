@@ -1,25 +1,29 @@
-.logo-web-footer {
-  color: var(--webcolor);
-  font-size: var(--websize);
-  line-height: 1.38;
-  font-family: "Raleway";
-}
-
-.logo-studiow-footer {
-  color: var(--studiocolor2);
-  font-size: var(--websize);
-  line-height: 1.38;
-  font-family: "Raleway";
-}
-// Footer
 footer {
-  background-color: var(--backcolor);
+  background-color: $backcolor;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
+.as{
+  display: flex;
+}
+
+.logo__web-footer {
+  color: $webcolor;
+  font-size: $websize;
+  line-height: 1.38;
+  font-family: "Raleway";
+}
+
+.logo__studiow-footer {
+  color: $studiocolor2;
+  font-size: $websize;
+  line-height: 1.38;
+  font-family: "Raleway";
+}
+
 .post-address {
-  color: var(--studiocolor2);
+  color: $studiocolor2;
   font-weight: 400;
   margin-bottom: 9px;
   line-height: 1.71;
@@ -27,8 +31,8 @@ footer {
   margin-top: 20px;
 }
 
-.contact-link-footer {
-  color: var(--mainfoot-color);
+.contact-link__footer {
+  color: $mainfoot-color;
   font-weight: 400;
   line-height: 1.71;
   margin-bottom: 9px;
@@ -36,17 +40,13 @@ footer {
   margin-top: 9px;
 }
 
-.as {
-  display: flex;
-}
-
-.ss {
+.join {
   padding-bottom: 20px;
-  color: var(--studiocolor2);
+  color: $studiocolor2;
   text-transform: uppercase;
 }
 
-.icon-list-footer {
+.icon-list__footer {
   display: flex;
 }
 
@@ -55,11 +55,11 @@ footer {
   margin-top: 11px;
 }
 
-.link-icon-list:nth-child(n + 2) {
+.link-icon__list:nth-child(n + 2) {
   padding-left: 10px;
 }
 
-.link-social-footer {
+.link-social__footer {
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -67,31 +67,31 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--footericoncolor);
+  background-color: $footericoncolor;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-social-footer {
-  fill: var(--studiocolor2);
+.icon-social__footer {
+  fill: $studiocolor2;
 }
 
-.link-social-footer:hover {
-  background-color: var(--webcolor);
+.link-social__footer:hover {
+  background-color: $webcolor;
 }
 
-.link-social-footer:hover .icon-social {
-  fill: var(--studiocolor2);
+.link-social__footer:hover .icon-social {
+  fill: $studiocolor2;
 }
 
 .email-input {
-  color: var(--mainfoot-color);
-  background-color: var(--backcolor);
+  color: $mainfoot-color;
+  background-color: $backcolor;
   border: none;
-  outline: 1px solid var(--mainfoot-color);
+  outline: 1px solid $mainfoot-color;
   padding: 15px 205px 15px 15px;
   border-radius: 4px;
 }
 
-.ad {
+.ul-input {
   display: flex;
 }
 
@@ -102,8 +102,8 @@ footer {
   font-weight: 700;
   font-size: 16px;
   cursor: pointer;
-  background-color: var(--webcolor);
-  color: var(--studiocolor2);
+  background-color: $webcolor;
+  color: $studiocolor2;
   padding: 10px 28px 10px 34px;
   border-radius: 4px;
   border: none;
@@ -113,5 +113,5 @@ footer {
 }
 
 .icon-footer {
-  fill: var(--studiocolor2);
+  fill: $studiocolor2;
 }

@@ -1,4 +1,4 @@
-.hero-section {
+.hero__section {
   max-width: 1600px;
   height: 600px;
   display: flex;
@@ -15,20 +15,20 @@
 }
 
 .title {
-  color: var(--studiocolor2);
+  color: $studiocolor2;
   font-weight: 900;
   line-height: 1.36;
   font-size: 44px;
   margin-bottom: 30px;
 }
 
-.hero-title {
+.hero__title {
   width: 696px;
 }
 
-.hero-button {
-  background-color: var(--webcolor);
-  color: var(--studiocolor2);
+.hero__button {
+  background-color: $webcolor;
+  color: $studiocolor2;
   padding: 10px 32px;
   border-radius: 4px;
   border: none;

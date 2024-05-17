@@ -11,22 +11,22 @@
 
 .rights {
   padding-left: 7px;
-  color: var(--mainfoot-color);
+  color: $mainfoot-color;
   font-weight: 400;
   font-size: 14px;
 }
 
 .dogovor {
   text-decoration: underline;
-  color: var(--webcolor);
+  color: $webcolor;
 }
 
 .send {
   border: none;
   width: 200px;
   height: 50px;
-  background-color: var(--webcolor);
-  color: var(--studiocolor2);
+  background-color: $webcolor;
+  color: $studiocolor2;
   font-weight: 700;
   font-size: 16px;
   margin-left: 120px;

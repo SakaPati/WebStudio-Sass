@@ -7,7 +7,7 @@
 .order-label {
   display: block;
   margin-bottom: 7px;
-  color: var(--mainfoot-color);
+  color: $mainfoot-color;
   font-size: 12px;
   font-weight: 400;
 }
@@ -21,14 +21,14 @@ input[type="email"] {
 
 .order-input:focus,
 .order-input:hover {
-  outline: 1px solid var(--webcolor);
+  outline: 1px solid $webcolor;
 }
 
 .order-input {
   border: none;
   width: 448px;
   height: 40px;
-  outline: 1px solid var(--close);
+  outline: 1px solid $close;
   border-radius: 4px;
   padding-left: 40px;
   cursor: pointer;
@@ -45,12 +45,12 @@ input[type="email"] {
 }
 
 .order-link:hover .icon-modal {
-  fill: var(--webcolor);
+  fill: $webcolor;
 }
 
 .icon-modal:hover,
 .icon-modal:focus {
-  fill: var(--webcolor);
+  fill: $webcolor;
 }
 
 input[type="text"] {

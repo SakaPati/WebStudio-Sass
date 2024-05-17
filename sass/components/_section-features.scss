@@ -1,25 +1,27 @@
 .features {
   padding-top: 94px;
   padding-bottom: 94px;
-}
 
-.features-list {
+  &__list {
   column-gap: 30px;
   display: flex;
 }
+}
 
-.features-description {
-  color: var(--mainfoot-color);
+
+
+.features-list__description {
+  color: $mainfoot-color;
   font-weight: 400;
   line-height: 1.71;
   margin-top: 10px;
 }
 
-.features-icon {
+.features-list__icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--imgcolor);
+  background-color: $imgcolor;
   padding: 22px 0;
   margin-bottom: 30px;
 }

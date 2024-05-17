@@ -1,27 +1,27 @@
-.logo-web {
-  color: var(--webcolor);
-  font-size: var(--websize);
+.logo__web {
+  color: $webcolor;
+  font-size: $websize;
   line-height: 1.38;
   font-family: "Raleway";
 }
 
-.logo-studio {
-  color: var(--studiocolor);
-  font-size: var(--websize);
+.logo__studio {
+  color: $studiocolor;
+  font-size: $websize;
   line-height: 1.38;
   font-family: "Raleway";
 }
 
-.logo-web-footer {
-  color: var(--webcolor);
-  font-size: var(--websize);
+.logo__web-footer {
+  color: $webcolor;
+  font-size: $websize;
   line-height: 1.38;
   font-family: "Raleway";
 }
 
-.logo-studiow-footer {
-  color: var(--studiocolor2);
-  font-size: var(--websize);
+.logo__studiow-footer {
+  color: $studiocolor2;
+  font-size: $websize;
   line-height: 1.38;
   font-family: "Raleway";
 }

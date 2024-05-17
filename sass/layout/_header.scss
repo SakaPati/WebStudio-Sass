@@ -1,13 +1,13 @@
 .logo-web {
-  color: var(--webcolor);
-  font-size: var(--websize);
+  color: $webcolor;
+  font-size: $websize;
   line-height: 1.38;
   font-family: "Raleway";
 }
 
 .logo-studio {
-  color: var(--studiocolor);
-  font-size: var(--websize);
+  color: $studiocolor;
+  font-size: $websize;
   line-height: 1.38;
   font-family: "Raleway";
 }

@@ -10,8 +10,8 @@
   height: 30px;
   border: none;
   border-radius: 50%;
-  outline: 1px solid var(--close);
-  background-color: var(--studiocolor2);
+  outline: 1px solid $close;
+  background-color: $studiocolor2;
   cursor: pointer;
 }
 
@@ -22,5 +22,5 @@
 }
 
 .svg-close:hover {
-  fill: var(--webcolor);
+  fill: $webcolor;
 }
