@@ -1,27 +1,19 @@
 .logo__web {
   color: $webcolor;
-  font-size: $websize;
-  line-height: 1.38;
-  font-family: "Raleway";
+  @extend %logo-set;
 }
 
 .logo__studio {
   color: $studiocolor;
-  font-size: $websize;
-  line-height: 1.38;
-  font-family: "Raleway";
+  @extend %logo-set;
 }
 
 .logo__web-footer {
   color: $webcolor;
-  font-size: $websize;
-  line-height: 1.38;
-  font-family: "Raleway";
+  @extend %logo-set;
 }
 
 .logo__studiow-footer {
   color: $studiocolor2;
-  font-size: $websize;
-  line-height: 1.38;
-  font-family: "Raleway";
+  @extend %logo-set;
 }

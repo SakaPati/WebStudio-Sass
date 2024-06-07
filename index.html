@@ -21,9 +21,9 @@
     <header class="header">
       <div class="container con-header">
         <nav class="navigation">
-          <a href="/" class="logo-header">
-            <span class="logo__web">Web</span>
-            <span class="logo__studio">Studio</span>
+          <a href="/" class="navigation__logo logo-header">
+            <span class="navigation__logo-web logo__web">Web</span>
+            <span class="navigation__logo-studio logo__studio">Studio</span>
           </a>
 
           <ul class="menu">
@@ -41,9 +41,9 @@
           </ul>
         </nav>
 
-        <ul class="contact__menu-header">
-          <li class="contact__item">
-            <a href="mailto:info@devstudio.com" class="contact__link-header">
+        <ul class="contacts-list contact__menu-header">
+          <li class="contacts-list__item contact__item">
+            <a href="mailto:info@devstudio.com" class="contacts-list__link contact__link-header">
               <svg width="20" height="16" class="icon__contact">
                 <use href="./icon/symbol-defs-2.svg#icon-email"></use>
               </svg>
@@ -65,7 +65,7 @@
     <main>
       <!-- Перва секція -->
       <section class="hero__section section">
-        <div class="container hero__title">
+        <div class="container hero__title hero-section__title">
           <h1 class="title">ЕФЕКТИВНІ РІШЕНЯ ДЛЯ ВАШОГО БИЗНЕСУ</h1>
           <button type="button" class="hero__button" data-modal-open>
             Замовити послугу
@@ -453,7 +453,7 @@
                 class="link-social__footer"
                 target="_blank"
               >
-                <svg width="20" height="20" class="icon-social-footer">
+                <svg width="20" height="20" class="icon-social__footer">
                   <use href="./icon/symbol-defs-2.svg#icon-instagram"></use>
                 </svg>
               </a>
@@ -465,7 +465,7 @@
                 class="link-social__footer"
                 target="_blank"
               >
-                <svg width="20" height="20" class="icon-social-footer">
+                <svg width="20" height="20" class="icon-social__footer">
                   <use href="./icon/symbol-defs-2.svg#icon-twitter"></use>
                 </svg>
               </a>
@@ -477,7 +477,7 @@
                 class="link-social__footer"
                 target="_blank"
               >
-                <svg width="20" height="20" class="icon-social-footer">
+                <svg width="20" height="20" class="icon-social__footer">
                   <use href="./icon/symbol-defs-2.svg#icon-facebook"></use>
                 </svg>
               </a>
@@ -485,7 +485,7 @@
 
             <li class="link-icon__list">
               <a href="#" class="link-social__footer">
-                <svg width="20" height="20" class="icon-social-footer">
+                <svg width="20" height="20" class="icon-social__footer">
                   <use href="./icon/symbol-defs-2.svg#icon-in"></use>
                 </svg>
               </a>
@@ -496,9 +496,7 @@
         <div class="footer-conteiner">
           <h3 class="join">Підпишіться на розсилку</h3>
 
-          <ul class="ul-input">
-            <li>
-              <form>
+              <form class="ul-input"> 
                 <label for="email"></label>
                 <input
                   type="email"
@@ -506,11 +504,8 @@
                   id="email"
                   class="email-input"
                 />
-              </form>
-            </li>
 
-            <li>
-              <button type="button" class="bth-footer">
+                <button type="submit" class="bth-footer">
                 Підписатися
                 <svg width="24" height="24" class="icon-tg">
                   <use
@@ -519,8 +514,8 @@
                   ></use>
                 </svg>
               </button>
-            </li>
-          </ul>
+              </form>
+              
         </div>
       </div>
     </footer>

@@ -18,9 +18,7 @@
 }
 
 .features-list__icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %flex-center;
   background-color: $imgcolor;
   padding: 22px 0;
   margin-bottom: 30px;

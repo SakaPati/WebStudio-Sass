@@ -1,0 +1,18 @@
+%flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+%contacts-set {
+  font-weight: 400;
+  margin-bottom: 9px;
+  line-height: 1.71;
+  font-style: normal;
+}
+
+%logo-set {
+  font-size: $websize;
+  line-height: 1.38;
+  font-family: "Raleway";
+}

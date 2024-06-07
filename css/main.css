@@ -1,3 +1,22 @@
+.link-social__footer, .contact__menu-header .contact__link-header, .clients-zagolovog, .link-icon__social, .features-list__icon, .job-list__text, .hero__section, .bth-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-link__footer, .post-address {
+  font-weight: 400;
+  margin-bottom: 9px;
+  line-height: 1.71;
+  font-style: normal;
+}
+
+.logo__studiow-footer, .logo__web-footer, .logo__studio, .logo__web {
+  font-size: 26px;
+  line-height: 1.38;
+  font-family: "Raleway";
+}
+
 img {
   display: block;
   width: 100%;
@@ -43,63 +62,48 @@ body {
   margin: 0;
 }
 
-.hero-button {
+.hero__button {
+  width: 216px;
+  padding: 10px 32px;
   background-color: #2196f3;
   color: #ffffff;
-  padding: 10px 32px;
   border-radius: 4px;
+  height: 50px;
   border: none;
   cursor: pointer;
 }
 
 .bth-footer {
   margin-left: 12px;
-  display: flex;
-  align-items: center;
-  font-weight: 700;
-  font-size: 16px;
-  cursor: pointer;
+  width: 200px;
+  padding: 10px 32px;
   background-color: #2196f3;
   color: #ffffff;
-  padding: 10px 28px 10px 34px;
   border-radius: 4px;
+  height: 50px;
   border: none;
+  cursor: pointer;
 }
 
 .logo__web {
   color: #2196f3;
-  font-size: 26px;
-  line-height: 1.38;
-  font-family: "Raleway";
 }
 
 .logo__studio {
   color: #000;
-  font-size: 26px;
-  line-height: 1.38;
-  font-family: "Raleway";
 }
 
 .logo__web-footer {
   color: #2196f3;
-  font-size: 26px;
-  line-height: 1.38;
-  font-family: "Raleway";
 }
 
 .logo__studiow-footer {
   color: #ffffff;
-  font-size: 26px;
-  line-height: 1.38;
-  font-family: "Raleway";
 }
 
 .hero__section {
   max-width: 1600px;
   height: 600px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/project-company.jpg");
   margin: 0 auto;
@@ -117,111 +121,6 @@ body {
   width: 696px;
 }
 
-.hero__button {
-  background-color: #2196f3;
-  color: #ffffff;
-  padding: 10px 32px;
-  border-radius: 4px;
-  border: none;
-  cursor: pointer;
-}
-
-.post-address {
-  color: #ffffff;
-  font-weight: 400;
-  margin-bottom: 9px;
-  line-height: 1.71;
-  font-style: normal;
-  margin-top: 20px;
-}
-
-.contact-link-footer {
-  color: #757575;
-  font-weight: 400;
-  line-height: 1.71;
-  margin-bottom: 9px;
-  font-style: normal;
-  margin-top: 9px;
-}
-
-.join {
-  padding-bottom: 20px;
-  color: #ffffff;
-  text-transform: uppercase;
-}
-
-.icon-list-footer {
-  display: flex;
-}
-
-.footer-conteiner:nth-child(n+2) {
-  margin-left: 71px;
-  margin-top: 11px;
-}
-
-.link-icon-list:nth-child(n+2) {
-  padding-left: 10px;
-}
-
-.link-social-footer {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  display: block;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #44454e;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.icon-social-footer {
-  fill: #ffffff;
-}
-
-.link-social-footer:hover {
-  background-color: #2196f3;
-}
-
-.link-social-footer:hover .icon-social {
-  fill: #ffffff;
-}
-
-.email-input {
-  color: #757575;
-  background-color: #2f303a;
-  border: none;
-  outline: 1px solid #757575;
-  padding: 15px 205px 15px 15px;
-  border-radius: 4px;
-}
-
-.ul-input {
-  display: flex;
-}
-
-.bth-footer {
-  margin-left: 12px;
-  display: flex;
-  align-items: center;
-  font-weight: 700;
-  font-size: 16px;
-  cursor: pointer;
-  background-color: #2196f3;
-  color: #ffffff;
-  padding: 10px 28px 10px 34px;
-  border-radius: 4px;
-  border: none;
-}
-
-.icon-tg {
-  margin-left: 10px;
-}
-
-.icon-footer {
-  fill: #ffffff;
-}
-
 .job {
   padding-bottom: 94px;
 }
@@ -237,9 +136,6 @@ body {
 
 .job-list__text {
   position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   text-transform: uppercase;
   bottom: 0;
   left: 0;
@@ -277,9 +173,6 @@ body {
 }
 
 .features-list__icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #f5f4fa;
   padding: 22px 0;
   margin-bottom: 30px;
@@ -343,10 +236,6 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  display: block;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .icon-social {
@@ -369,9 +258,6 @@ body {
 }
 
 .clients-zagolovog {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-weight: 700;
   font-size: 36px;
   margin-bottom: 50px;
@@ -568,20 +454,6 @@ input[type=text] {
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
 }
 
-.logo-web {
-  color: #2196f3;
-  font-size: 26px;
-  line-height: 1.38;
-  font-family: "Raleway";
-}
-
-.logo-studio {
-  color: #000;
-  font-size: 26px;
-  line-height: 1.38;
-  font-family: "Raleway";
-}
-
 .logo-header {
   padding-bottom: 25px;
   padding-top: 24px;
@@ -613,9 +485,6 @@ input[type=text] {
   margin-left: auto;
 }
 .contact__menu-header .contact__link-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-weight: 500;
   margin-left: 10px;
   color: #757575;
@@ -679,19 +548,11 @@ footer {
 
 .post-address {
   color: #ffffff;
-  font-weight: 400;
-  margin-bottom: 9px;
-  line-height: 1.71;
-  font-style: normal;
   margin-top: 20px;
 }
 
 .contact-link__footer {
   color: #757575;
-  font-weight: 400;
-  line-height: 1.71;
-  margin-bottom: 9px;
-  font-style: normal;
   margin-top: 9px;
 }
 
@@ -718,10 +579,6 @@ footer {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  display: block;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: #44454e;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -741,6 +598,7 @@ footer {
 .email-input {
   color: #757575;
   background-color: #2f303a;
+  height: 50px;
   border: none;
   outline: 1px solid #757575;
   padding: 15px 205px 15px 15px;
@@ -749,20 +607,6 @@ footer {
 
 .ul-input {
   display: flex;
-}
-
-.bth-footer {
-  margin-left: 12px;
-  display: flex;
-  align-items: center;
-  font-weight: 700;
-  font-size: 16px;
-  cursor: pointer;
-  background-color: #2196f3;
-  color: #ffffff;
-  padding: 10px 28px 10px 34px;
-  border-radius: 4px;
-  border: none;
 }
 
 .icon-tg {

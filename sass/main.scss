@@ -1,4 +1,6 @@
 @import "abstracts/variables";
+@import "abstracts/mixins.scss";
+@import "abstracts/placeholders";
 
 @import "base/reset";
 @import "base/typography";
@@ -6,7 +8,6 @@
 @import "components/buttons";
 @import "components/logo";
 @import "components/hero-section";
-@import "components/footre-address";
 @import "components/section-job";
 @import "components/section-features";
 @import "components/section-team";
