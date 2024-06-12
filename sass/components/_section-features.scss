@@ -5,21 +5,39 @@
   &__list {
   column-gap: 30px;
   display: flex;
+
+  @media screen and (max-width: 480px) {
+    display: block;
+}
 }
 }
 
-
+.features-list__title{
+  @media screen and (max-width: 480px) {
+    text-align: center;
+  }
+}
 
 .features-list__description {
   color: $mainfoot-color;
   font-weight: 400;
   line-height: 1.71;
   margin-top: 10px;
+
+  @media screen and (max-width: 480px) {
+    width: 450px;
+}
 }
 
 .features-list__icon {
+  width: 270px;
+  height: 120px;
   @extend %flex-center;
   background-color: $imgcolor;
   padding: 22px 0;
   margin-bottom: 30px;
+
+  @media screen and (max-width: 480px) {
+    width: 450px;
+  }
 }

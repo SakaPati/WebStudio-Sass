@@ -15,7 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header">
@@ -43,7 +43,10 @@
 
         <ul class="contacts-list contact__menu-header">
           <li class="contacts-list__item contact__item">
-            <a href="mailto:info@devstudio.com" class="contacts-list__link contact__link-header">
+            <a
+              href="mailto:info@devstudio.com"
+              class="contacts-list__link contact__link-header"
+            >
               <svg width="20" height="16" class="icon__contact">
                 <use href="./icon/symbol-defs-2.svg#icon-email"></use>
               </svg>
@@ -60,6 +63,10 @@
             </a>
           </li>
         </ul>
+
+        <div class="menu-mobile">
+          <span></span>
+        </div>
       </div>
     </header>
     <main>
@@ -76,7 +83,6 @@
       <div class="container">
         <section class="features section">
           <ul class="features__list">
-
             <li class="features-list__item">
               <div class="features-list__icon">
                 <svg width="70" height="70">
@@ -496,26 +502,25 @@
         <div class="footer-conteiner">
           <h3 class="join">Підпишіться на розсилку</h3>
 
-              <form class="ul-input"> 
-                <label for="email"></label>
-                <input
-                  type="email"
-                  placeholder="E-mail"
-                  id="email"
-                  class="email-input"
-                />
+          <form class="ul-input">
+            <label for="email"></label>
+            <input
+              type="email"
+              placeholder="E-mail"
+              id="email"
+              class="email-input"
+            />
 
-                <button type="submit" class="bth-footer">
-                Підписатися
-                <svg width="24" height="24" class="icon-tg">
-                  <use
-                    href="./icon/symbol-defs-2.svg#icon-tg"
-                    class="icon-footer"
-                  ></use>
-                </svg>
-              </button>
-              </form>
-              
+            <button type="submit" class="bth-footer">
+              Підписатися
+              <svg width="24" height="24" class="icon-tg">
+                <use
+                  href="./icon/symbol-defs-2.svg#icon-tg"
+                  class="icon-footer"
+                ></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
@@ -581,5 +586,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu-mobile.js"></script>
   </body>
 </html>

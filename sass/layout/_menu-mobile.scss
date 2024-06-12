@@ -1,0 +1,39 @@
+// .menu-mobile{
+//         display: flex;
+//         position: relative;
+//         z-index: 50;
+//         align-items: center;
+//         justify-content: flex-end;
+//         width: 30px;
+//         height: 18px;
+// }
+
+// .menu-mobile span{
+//     height: 2px;
+//     width: 100%;
+//     background-color: #000;
+//     margin-left: 10px;
+// }
+
+// .menu-mobile::before, .menu-mobile::after{
+//     content: "";
+//     position: absolute;
+//     height: 2px;
+//     width: 66%;
+//     background-color: #000;
+// }
+
+// .menu-mobile::before{ top: 0;}
+// .menu-mobile::after{ bottom: 0;}
+
+// .menu-mobile.active span{
+//     transform: scale(0);
+// }
+// .menu-mobile.active::before{
+//     top: 50%;
+//     transform: rotate(60deg);
+// }
+// .menu-mobile.active::after{
+//     bottom: 50%;
+//     transform: rotate(-60deg);
+// }
