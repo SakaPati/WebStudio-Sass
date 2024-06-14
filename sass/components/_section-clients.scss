@@ -1,6 +1,11 @@
 .clients {
   padding-top: 87px;
   padding-bottom: 101px;
+
+  @media screen and (min-width: 480px) and (max-width: 768px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 .clients-zagolovog {
@@ -13,23 +18,44 @@
 .clients-list {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+
+  @media screen and (min-width: 480px) and (max-width: 768px) {
+    justify-content: start;
+    flex-basis: calc(100% / 2 - 30px);
+    gap: 30px 30px;
+  }
 }
 
 .item-clients:nth-child(n + 2) {
-  margin-left: 30px;
+  @media screen and (min-width: 1200px) {
+    margin-left: 30px;
+  }
 }
 
 .item-clients {
   width: 170px;
-  height: 97px;
+  height: 92px;
   border: 1px solid $iconcolor;
   border-radius: 4px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media screen and (min-width: 480px) and (max-width: 768px) {
+    width: 210px;
+    height: 92px;
+  }
 }
 
 .link-clients {
+  width: 170px;
+  height: 92px;
   fill: $iconcolor;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media screen and (min-width: 480px) and (max-width: 768px) {
+    width: 210px;
+    height: 92px;
+  }
 }
 
 .link-clients:hover {

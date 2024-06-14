@@ -4,8 +4,21 @@ footer {
   padding-bottom: 60px;
 }
 
-.as{
+.as {
   display: flex;
+
+  @media screen and (min-width: 480px) and (max-width: 768px) {
+    justify-content: center;
+  }
+}
+
+.footer-conteiner {
+  width: 231px;
+  height: 81px;
+
+  @media screen and (min-width: 480px) and (max-width: 768px) {
+    text-align: center;
+  }
 }
 
 .logo__web-footer {
@@ -31,7 +44,6 @@ footer {
 .contact-link__footer {
   color: $mainfoot-color;
   @extend %contacts-set;
-  margin-top: 9px;
 }
 
 .join {

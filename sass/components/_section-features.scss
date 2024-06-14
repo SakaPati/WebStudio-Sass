@@ -2,17 +2,28 @@
   padding-top: 94px;
   padding-bottom: 94px;
 
+  @media screen and (min-width:480px) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
   &__list {
   column-gap: 30px;
   display: flex;
+}
+}
 
-  @media screen and (max-width: 480px) {
+.features__list{
+  font-size: 14px;
+
+  @media screen and (min-width:480px) and (max-width: 768px) {
+    max-width: 768px;
     display: block;
-}
-}
+  }
 }
 
 .features-list__title{
+
   @media screen and (max-width: 480px) {
     text-align: center;
   }
@@ -28,6 +39,11 @@
     width: 450px;
 }
 }
+
+.features-list__description:last-child {
+  margin-bottom: 30px;
+}
+
 
 .features-list__icon {
   width: 270px;
