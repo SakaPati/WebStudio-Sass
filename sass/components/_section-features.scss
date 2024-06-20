@@ -1,10 +1,11 @@
 .features {
-  padding-top: 94px;
-  padding-bottom: 94px;
-
-  @media screen and (min-width:480px) {
+  @media screen and (min-width:480px) and (max-width:480px) {
     padding-top: 30px;
     padding-bottom: 30px;
+  }
+  @media screen and (min-width:1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
   }
 
   &__list {
@@ -15,45 +16,49 @@
 
 .features__list{
   font-size: 14px;
+  display: block;
 
-  @media screen and (min-width:480px) and (max-width: 768px) {
-    max-width: 768px;
-    display: block;
+  @media screen and (min-width:1200px) and (max-width: 1600px) {
+    display: flex;
   }
 }
 
 .features-list__title{
+  text-align: center;
 
-  @media screen and (max-width: 480px) {
-    text-align: center;
+  @media screen and (min-width:1200px) and (max-width:1600px) {
+    text-align: start;
   }
 }
 
 .features-list__description {
+  width: 450px;
   color: $mainfoot-color;
   font-weight: 400;
   line-height: 1.71;
   margin-top: 10px;
 
-  @media screen and (max-width: 480px) {
-    width: 450px;
+  @media screen and (min-width: 1200px) and (max-width:1600px) {
+    width: 270px;
 }
 }
 
 .features-list__description:last-child {
-  margin-bottom: 30px;
+  @media screen and (min-width:480px) and (max-width: 480px) {
+    margin-bottom: 30px;;
+  }
 }
 
 
 .features-list__icon {
-  width: 270px;
+  width: 450px;
   height: 120px;
   @extend %flex-center;
   background-color: $imgcolor;
   padding: 22px 0;
   margin-bottom: 30px;
 
-  @media screen and (max-width: 480px) {
-    width: 450px;
+  @media screen and (min-width: 1200px) and (max-width: 1600px) {
+    width: 270px;
   }
 }

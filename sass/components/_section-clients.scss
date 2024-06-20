@@ -1,10 +1,10 @@
 .clients {
-  padding-top: 87px;
-  padding-bottom: 101px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 
-  @media screen and (min-width: 480px) and (max-width: 768px) {
-    padding-top: 60px;
-    padding-bottom: 60px;
+  @media screen and (min-width: 1200px) and (max-width: 1600px) {
+    padding-top: 87px;
+    padding-bottom: 101px;
   }
 }
 
@@ -17,13 +17,14 @@
 
 .clients-list {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   flex-wrap: wrap;
+  flex-basis: calc(100% / 2 - 30px);
+  gap: 30px 30px;
 
-  @media screen and (min-width: 480px) and (max-width: 768px) {
-    justify-content: start;
-    flex-basis: calc(100% / 2 - 30px);
-    gap: 30px 30px;
+  @media screen and (min-width: 1200px) and (max-width: 1600px) {
+    justify-content: center;
+    gap: 0px 0px;
   }
 }
 
@@ -34,27 +35,25 @@
 }
 
 .item-clients {
-  width: 170px;
+  width: 210px;
   height: 92px;
   border: 1px solid $iconcolor;
   border-radius: 4px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  @media screen and (min-width: 480px) and (max-width: 768px) {
-    width: 210px;
-    height: 92px;
+  @media screen and (min-width: 1200px) and (max-width: 1600px) {
+    width: 170px;
   }
 }
 
 .link-clients {
-  width: 170px;
+  width: 210px;
   height: 92px;
   fill: $iconcolor;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  @media screen and (min-width: 480px) and (max-width: 768px) {
-    width: 210px;
-    height: 92px;
+  @media screen and (min-width: 1200px) and (max-width: 1600px) {
+    width: 170px;
   }
 }
 

@@ -1,34 +1,35 @@
 .team-section {
   background-color: $imgcolor;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 30px;
 
-  @media screen and (min-width: 480px) and (max-width: 768px) {
-    padding-top: 60px;
-    padding-bottom: 30px;
+  @media screen and (min-width: 1200px) and (max-width: 1600px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
   }
 }
 .team-h2 {
   text-align: center;
-  font-size: 36px;
+  font-size: 28px;
   padding-bottom: 50px;
 
-  @media screen and (min-width: 480px) and (max-width: 768px) {
-    font-size: 28px;
+  @media screen and (min-width: 1200px) and (max-width: 1600px) {
+    font-size: 36px;
   }
 }
 
 .team-list {
-  display: flex;
+  display: grid;
   justify-content: center;
 
-  @media screen and (min-width: 480px) and (max-width: 768px) {
-    display: grid;
+  @media screen and (min-width: 1200px) and (max-width: 1600px) {
+    display: flex;
   }
 }
 
 .team-list__item {
-  width: 270px;
+  width: 450px;
+  height: 622px;
   margin-right: auto;
   margin-left: auto;
   background-color: $studiocolor2;
@@ -39,33 +40,35 @@
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   padding-bottom: 34px;
 
-  @media screen and (min-width: 480px) and (max-width: 768px) {
-    width: 450px;
-    height: 622px;
+  @media screen and (min-width: 1200px) and (max-width: 1600px) {
+    width: 270px;
+    height: 428px;
   }
 }
 
 .team-list__item:nth-child(-n + 4) {
-  margin-bottom: 30px;
+  @media screen and (min-width: 480px) and (max-width: 480px) {
+    margin-bottom: 30px;
+  }
 }
 
 .item-img {
-  width: 270px;
-  height: 260px;
+  width: 450px;
+  height: 460px;
 
-  @media screen and (min-width: 480px) and (max-width: 768px) {
-    width: 450px;
-    height: 460px;
+  @media screen and (min-width: 1200px) and (max-width: 1600px) {
+    width: 270px;
+    height: 260px;
   }
 }
 
 .team-list__item-name {
   font-size: 16px;
   font-weight: 500;
-  padding: 10px 0px;
+  padding: 30px 0px 10px 0px;
 
-  @media screen and (min-width: 480px) and (max-width: 768px) {
-    padding: 30px 0px 10px 0px;
+  @media screen and (min-width: 1200px) and (max-width: 1600px) {
+    padding: 10px 0px;
   }
 }
 

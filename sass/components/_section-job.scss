@@ -1,7 +1,8 @@
 .job {
+  display: none;
   padding-bottom: 94px;
-  @media screen and (min-width:480px) and (max-width: 768px) {
-    display: none;
+  @media screen and (min-width:1200px) and (max-width: 1600px) {
+    display: block;
   }
 }
 
