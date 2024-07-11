@@ -20,6 +20,10 @@
   <body>
     <header class="header">
       <div class="container con-header">
+        <button class="menu-toggle js-open-menu">
+          <span class="menu-open"></span>
+        </button>
+
         <nav class="navigation">
           <a href="/" class="navigation__logo logo-header">
             <span class="navigation__logo-web logo__web">Web</span>
@@ -60,10 +64,6 @@
             </a>
           </li>
         </ul>
-
-        <div class="burger">
-          <span class="mob-menu"></span>
-        </div>
       </div>
     </header>
     <main>
@@ -585,6 +585,59 @@
         <button type="button" class="send">Відправити</button>
       </div>
     </div>
+
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg width="19" height="19" fill="none">
+          <use href="./icon/symbol-defs.svg#menu-close"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu">
+        <li class="mobile-item">
+          <a href="" class="mobile-item-link">Студія</a>
+        </li>
+
+        <li class="mobile-item">
+          <a href="" class="mobile-item-link">Портфоліо</a>
+        </li>
+
+        <li class="mobile-item">
+          <a href="" class="mobile-item-link">Контакти</a>
+        </li>
+      </ul>
+
+      <ul class="mobile-contacts">
+        <li class="contacts-item">
+          <a href="tel:+380961111111" class="contacts-link"> +38 096 111 11 11 </a>
+        </li>
+
+        <li class="contacts-item">
+          <a href="mailto:info@devstudio.com" class="contacts-link">
+            info@devstudio.com
+          </a>
+        </li>
+      </ul>
+
+      <ul class="social-list">
+        <li class="social-item">
+          <a href="#" class="social-link">Instagram</a>
+        </li>
+
+        <li class="social-item">
+          <a href="#" class="social-link">Twitter</a>
+        </li>
+
+        <li class="social-item">
+          <a href="#" class="social-link">Facebook</a>
+        </li>
+
+        <li class="social-item">
+          <a href="#" class="social-link">LinkedIn</a>
+        </li>
+      </ul>
+    </div>
+
     <script src="./js/modal.js"></script>
     <script src="./js/menu-mobile.js"></script>
   </body>
