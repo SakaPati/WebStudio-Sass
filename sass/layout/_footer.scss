@@ -5,7 +5,7 @@ footer {
 }
 
 .as {
-  @media screen and (min-width: 480px) and (max-width: 480px) {
+  @media screen and (min-width:320px) and (max-width:768px) {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,7 +35,7 @@ footer {
 .footer-conteiner {
   width: 231px;
 
-  @media screen and (min-width: 480px) and (max-width: 480px) {
+  @media screen and (min-width:320px) and (max-width:768px) {
     text-align: center;
   }
 }
@@ -73,7 +73,7 @@ footer {
 }
 
 .join-social {
-  @media screen and (min-width: 480px) and (max-width: 480px) {
+  @media screen and (min-width:320px) and (max-width:768px) {
     margin-top: 60px;
     margin-bottom: 60px;
     text-align: center;
@@ -94,7 +94,7 @@ footer {
 .icon-list__footer {
   display: flex;
 
-  @media screen and (min-width: 480px) and (max-width: 480px) {
+  @media screen and (min-width:320px) and (max-width:768px) {
     justify-content: center;
   }
 
@@ -138,10 +138,6 @@ footer {
   padding: 15px 205px 15px 15px;
   border-radius: 4px;
 
-  @media screen and (min-width: 480px) and (max-width: 480px) {
-    margin-left: -109px;
-  }
-
   @media screen and (min-width: 1200px) and (max-width: 1600px) {
     width: 358px;
   }
@@ -150,8 +146,9 @@ footer {
 .ul-input {
   display: flex;
 
-  @media screen and (min-width: 480px) and (max-width: 480px) {
+  @media screen and (min-width:320px) and (max-width:768px) {
     flex-direction: column;
+    align-items: center;
   }
 
   @media screen and (min-width: 768px) and (max-width: 1200px) {
