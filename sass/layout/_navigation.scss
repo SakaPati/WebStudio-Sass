@@ -91,6 +91,10 @@
   align-items: center;
 }
 
+.con-header{
+  position: relative;
+}
+
 .contacts-list {
   @media screen and (min-width:1200px) {
     display: flex;
