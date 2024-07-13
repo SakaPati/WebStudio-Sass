@@ -42,6 +42,11 @@
   display: flex;
   flex-direction: column;
 }
+
+@media screen and (min-width:1200px) and (max-width:1600px) {
+  display: flex;
+  flex-direction: row;
+}
 }
 
 .contacts-list__link:hover,

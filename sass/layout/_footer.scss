@@ -5,7 +5,7 @@ footer {
 }
 
 .as {
-  @media screen and (min-width:320px) and (max-width:768px) {
+  @media screen and (min-width: 320px) and (max-width: 768px) {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,21 +21,26 @@ footer {
   @media screen and (min-width: 768px) and (max-width: 1200px) {
     display: flex;
     align-items: baseline;
-    margin-left: 61px;
     text-align: center;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: space-around;
   }
 
   @media screen and (min-width: 1200px) and (max-width: 1600px) {
     display: flex;
     align-items: baseline;
+    justify-content: start;
+    width: 600px;
+    text-align: start;
   }
 }
 
 .footer-conteiner {
-  width: 231px;
+  @media screen and (min-width: 320px) and (max-width: 768) {
+    width: 100%;
+  }
 
-  @media screen and (min-width:320px) and (max-width:768px) {
+  @media screen and (min-width: 320px) and (max-width: 1200px) {
     text-align: center;
   }
 }
@@ -44,6 +49,10 @@ footer {
   @media screen and (min-width: 768px) and (max-width: 1200px) {
     margin: 0 auto;
     margin-top: 60px;
+  }
+
+  @media screen and (min-width: 1200px) and (max-width: 1600px) {
+    margin: 0;
   }
 }
 
@@ -73,7 +82,7 @@ footer {
 }
 
 .join-social {
-  @media screen and (min-width:320px) and (max-width:768px) {
+  @media screen and (min-width: 320px) and (max-width: 768px) {
     margin-top: 60px;
     margin-bottom: 60px;
     text-align: center;
@@ -94,12 +103,16 @@ footer {
 .icon-list__footer {
   display: flex;
 
-  @media screen and (min-width:320px) and (max-width:768px) {
+  @media screen and (min-width: 320px) and (max-width: 768px) {
     justify-content: center;
   }
 
   @media screen and (min-width: 768px) and (max-width: 1200px) {
     justify-content: center;
+  }
+
+  @media screen and (min-width: 1200px) and (max-width: 1600px) {
+    justify-content: start;
   }
 }
 
@@ -129,7 +142,7 @@ footer {
 }
 
 .email-input {
-  width: 450px;
+  width: 100%;
   color: $mainfoot-color;
   background-color: $backcolor;
   height: 50px;
@@ -137,6 +150,10 @@ footer {
   outline: 1px solid $mainfoot-color;
   padding: 15px 205px 15px 15px;
   border-radius: 4px;
+
+  @media screen and (min-width:768px) and (max-width:1200px) {
+    width: 450px;
+  }
 
   @media screen and (min-width: 1200px) and (max-width: 1600px) {
     width: 358px;
@@ -146,13 +163,18 @@ footer {
 .ul-input {
   display: flex;
 
-  @media screen and (min-width:320px) and (max-width:768px) {
+  @media screen and (min-width: 320px) and (max-width: 768px) {
     flex-direction: column;
     align-items: center;
   }
 
   @media screen and (min-width: 768px) and (max-width: 1200px) {
     flex-direction: column;
+    align-items: center;
+  }
+
+  @media screen and (min-width: 1200px) and (max-width: 1600px) {
+    flex-direction: row;
     align-items: center;
   }
 }
