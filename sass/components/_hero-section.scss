@@ -8,7 +8,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("../../images/fon-mobile.png");
+    url("../images/fon-mobile.png");
   margin: 0 auto;
 
   @media screen and (min-width: 768px) {
@@ -17,7 +17,7 @@
       to right,
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
-    ),url(../../images/fon-table.png);
+    ),url(../images/fon-table.png);
     height: 400px;
   }
 
@@ -27,7 +27,7 @@
       to right,
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
-    ),url(../../images/project-company.jpg);
+    ),url(../images/project-company.jpg);
     height: 600px;
   }
 }
