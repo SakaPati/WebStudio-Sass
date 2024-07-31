@@ -23,6 +23,10 @@ input[type="email"] {
   outline: 1px solid $webcolor;
 }
 
+.order-input:focus ~ .icon-modal{
+fill: $webcolor;
+}
+
 .order-input {
   border: none;
   width: 370px;

@@ -1,4 +1,9 @@
 .hero__section {
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 1992dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(../images/fon-mobile@2x.jpg);
+  }
   max-width: 480px;
   height: 400px;
   @extend %flex-center;
@@ -12,22 +17,34 @@
   margin: 0 auto;
 
   @media screen and (min-width: 768px) {
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 1992dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../images/fon-table@2x.jpg);
+    }
     max-width: 768px;
     background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),url(../images/fon-table.png);
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/fon-table.png);
     height: 400px;
   }
 
   @media screen and (min-width: 1200px) {
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 1992dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../images/project-company@2x.jpg);
+    }
     max-width: 1600px;
     background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),url(../images/project-company.jpg);
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/project-company.jpg);
     height: 600px;
   }
 }
@@ -48,7 +65,7 @@
 .hero__title {
   width: 360px;
 
-  @media screen and (min-width:1200px) {
+  @media screen and (min-width: 1200px) {
     width: 696px;
   }
 }
